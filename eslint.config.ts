@@ -1,4 +1,5 @@
 import js from '@eslint/js'
+import reactHooks from 'eslint-plugin-react-hooks'
 import regexpPlugin from 'eslint-plugin-regexp'
 import unicorn from 'eslint-plugin-unicorn'
 import { defineConfig } from 'eslint/config'
@@ -10,6 +11,7 @@ export default defineConfig([
     extends: [
       js.configs.recommended,
       tseslint.configs.recommended,
+      reactHooks.configs.flat.recommended,
       regexpPlugin.configs.recommended,
       unicorn.configs.recommended,
     ],
