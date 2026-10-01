@@ -25,6 +25,7 @@ export default defineConfig([
       'no-extra-boolean-cast': 'off',
 
       /* typescript-eslint */
+      '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/strict-boolean-expressions': 'error',
       '@typescript-eslint/no-unnecessary-type-conversion': 'error',
       '@typescript-eslint/no-floating-promises': ['error', { ignoreIIFE: true }],
